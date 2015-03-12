@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head.html %>
+    <link rel="stylesheet" href="/content/css/index.css"></script>
+    <script type="text/javascript" src="/controller/index.js"></script>
+
+</head>
+<div id="scroll-animate">
+  <div id="scroll-animate-main">
+    <div class="wrapper-parallax">
+
+    <header>
+        <% include header.html %>
+    </header>
+
+    
+<div class="content container" style="width: auto;">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="account-wall">
+                <div id="my-tab-content" class="tab-content">
+                    <div class="tab-pane active" id="login">
+                        <img class="profile-img" src="http://upload.wikimedia.org/wikipedia/en/b/ba/New_VCU_Rams_Logo.png" alt="" />
+                        <form class="form-signin" action="" method="">
+                            <input type="text" class="form-control" placeholder="Username" required autofocus />
+
+                            <input type="password" class="form-control" placeholder="Password" required />
+
+                            <input type="submit" class="btn btn-lg btn-default btn-block" value="Sign In" />
+                        </form>
+                        <div id="tabs" data-tabs="tabs">
+                             <p class="text-center"><a href="#register" data-toggle="tab">Need an Account?</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+      <footer>
+        <% include footer.html %>
+      </footer>
+
+    </div>
+  </div>
+</div>
+</html>
